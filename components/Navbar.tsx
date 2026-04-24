@@ -75,9 +75,12 @@ export default function Navbar() {
                             {link.name}
                         </Link>
                     ))}
-                    <button className="bg-black text-white px-4 py-2 rounded-md cursor-pointer">
+                    <a
+                        href="#leadform"
+                        className="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800"
+                    >
                         Get Started
-                    </button>
+                    </a>
                 </div>
             )}
         </nav>
